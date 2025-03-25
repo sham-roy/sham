@@ -1,7 +1,40 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  background: #171717;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
 }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.gb-button {
+  background: #00c8ffe8;
+  width: 150px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #000000;
+
+  &:hover {
+    border: 1px solid #00c8ff;
+    color: #00c8ff;
+    box-sizing: border-box;
+    background: transparent;
+
+  }
+}
+
+/* 
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -39,4 +72,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
