@@ -4,16 +4,14 @@ import Footer from "@components/components/footer/footer"
 export default function Home() {
 
 
-
-
   return (
     <div className="main-layer">
 
 
       <div className="nav-bar">
-        <a className="nav" href="#about">About me</a>
+        <a className="nav" href="/#about">About me</a>
         {/* <a className="nav" href="#lets-connect">Contact</a> */}
-        <a className="nav" href="#services">Services</a>
+        <a className="nav" href="/#services">Services</a>
       </div>
 
 
@@ -22,22 +20,24 @@ export default function Home() {
         <div className="intro-layer">
 
           <div className="about-dev">
-            <div className="dev-name">I'm sham roy</div>
-            <div className="dev-stack">Frontend Developer</div>
+            <div className="dev-name">I'm Sham Roy</div>
+            <div className="dev-stack">MERN STACK DEVELOPER</div>
             <div className="dev-content">
               Helping businesses and startups build high-performance web applications with modern technologies like Next.js, React, and Angular. Let's collaborate and turn your ideas into reality!            </div>
+
             <div className="gb-button">Contact me</div>
           </div>
 
           <div className="dev-avatar-layer">
-            {/* <img src="https://i.pinimg.com/736x/2d/9b/2d/2d9b2d155ee93f6a529f98fe93567087.jpg" alt="" /> */}
+            <img className="web-preview" src="/images/web-preview.png" alt="" />
           </div>
         </div>
 
         <div className="about-me" id="about">
 
           <div className="about-img-wrap">
-            <img src="https://i.pinimg.com/736x/1c/0b/63/1c0b6332659c28d5932b1cdea8622138.jpg" alt="" />
+            {/* <img src="https://i.pinimg.com/736x/1c/0b/63/1c0b6332659c28d5932b1cdea8622138.jpg" alt="" /> */}
+            <img className="avtar-abme" src="/images/e380d7b0320cdbbcbcecbf3b40ac1872-removebg-preview.png" alt="" />
           </div>
 
           <div className="about-info">
@@ -51,7 +51,7 @@ export default function Home() {
                 With a strong foundation in modern web technologies, I have helped businesses create robust, scalable, and engaging platforms. Whether it's an MVP for a startup or revamping an enterprise application, I ensure every project is optimized for performance, security, and user experience.
               </div>
 
-              <div className="gb-button">Download CV</div>
+              <a href="/file/Sham Roy.pdf" className="gb-button" style={{ textDecoration: 'none' }} download>Download CV</a>
             </div>
 
 
