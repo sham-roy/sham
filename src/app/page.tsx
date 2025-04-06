@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./style.scss";
 import Footer from "@components/components/footer/footer"
 
@@ -9,9 +10,9 @@ export default function Home() {
 
 
       <div className="nav-bar">
-        <a className="nav" href="/#about">About me</a>
+        <Link className="nav" href="/#about">About me</Link>
         {/* <a className="nav" href="#lets-connect">Contact</a> */}
-        <a className="nav" href="/#services">Services</a>
+        <Link className="nav" href="/#services">Services</Link>
       </div>
 
 
@@ -20,10 +21,10 @@ export default function Home() {
         <div className="intro-layer">
 
           <div className="about-dev">
-            <div className="dev-name">I'm Sham Roy</div>
+            <div className="dev-name">I&apos;m Sham Roy</div>
             <div className="dev-stack">MERN STACK DEVELOPER</div>
             <div className="dev-content">
-              Helping businesses and startups build high-performance web applications with modern technologies like Next.js, React, and Angular. Let's collaborate and turn your ideas into reality!            </div>
+              Helping businesses and startups build high-performance web applications with modern technologies like Next.js, React, and Angular. Let&apos;s collaborate and turn your ideas into reality!            </div>
 
             <div className="gb-button">Contact me</div>
           </div>
@@ -48,7 +49,7 @@ export default function Home() {
                 I am a Frontend Developer with expertise in Next.js, React, and Angular, backed by Node.js, Express.js, MongoDB, and WebSockets for full-stack solutions. I bring experience in agile development, UI/UX optimization, and performance-driven web applications.
                 <br />
                 <br />
-                With a strong foundation in modern web technologies, I have helped businesses create robust, scalable, and engaging platforms. Whether it's an MVP for a startup or revamping an enterprise application, I ensure every project is optimized for performance, security, and user experience.
+                With a strong foundation in modern web technologies, I have helped businesses create robust, scalable, and engaging platforms. Whether it&apos;s an MVP for a startup or revamping an enterprise application, I ensure every project is optimized for performance, security, and user experience.
               </div>
 
               <a href="/file/Sham Roy.pdf" className="gb-button" style={{ textDecoration: 'none' }} download>Download CV</a>
@@ -125,7 +126,7 @@ export default function Home() {
 
         <div className="lets-connect" id="lets-connect">
 
-          <div className="lets-work-together">Let's Work Together!</div>
+          <div className="lets-work-together">Let&apos;s Work Together!</div>
           <div className="connect-options-wrap">
             <div className="connect-options">WhatsApp: <a href="https://wa.me/917025825359?text=Hi,%20sham%20roy" target="_blank">+91-7025825359</a> </div>
             <div className="connect-options">E-mail: <a href="mailto:sy.royce@hotmail.com">Sy.royce@hotmail.com</a> </div>
@@ -133,7 +134,7 @@ export default function Home() {
             <div className="connect-options">Location: <a href="https://maps.app.goo.gl/vpvxmuh7AQw2okCf9">Kochi, Kerala</a> </div>
           </div>
 
-          <div className="connect-base">Let's discuss your project! Contact me for a free consultation.</div>
+          <div className="connect-base">Let&apos;s discuss your project! Contact me for a free consultation.</div>
         </div>
 
         <Footer />
